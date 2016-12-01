@@ -1,13 +1,96 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-<head>
-  <title>Church Website</title>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <!-- link(rel="shortcut icon", href="./assets/img/favicons/favicon.ico")-->
-  <link rel="stylesheet" href="assets/css/main.css"/>
-</head>
-<body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="assets/js/app.js"></script>
-</body>
+<html lang="en">
+  <head>
+    <title>Church Website</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- link(rel="shortcut icon", href="./assets/img/favicons/favicon.ico")-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Prata|Source+Sans+Pro" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+  </head>
+  <body>
+    <header class="logo"><img src="http://www.willowcreek.org/frontend/dist/assets/img/logo-wide.svg"/></header>
+    <aside class="overlay"></aside>
+    <nav class="menu__trigger">
+      <p>Menu</p>
+    </nav>
+    <nav class="menu__main">
+      <ul><a href="">
+          <li>Locations</li></a><a href="">
+          <li>Watch</li></a><a href="">
+          <li>Care</li></a><a href="">
+          <li>Connect</li></a><a href="">
+          <li>Serve</li></a><a href="">
+          <li>Give</li></a><a href="">
+          <li>About</li></a><a href="">
+          <li>Search</li></a></ul>
+    </nav>
+    <nav class="menu__icon">
+      <p data-tab="times"><i class="fa fa-clock-o" aria-hidden="true"></i> Times</p>
+      <p data-tab="location"><i class="fa fa-map-marker" aria-hidden="true"></i> Location</p>
+      <p data-tab="contact"><i class="fa fa-phone" aria-hidden="true"></i> Contact</p>
+    </nav>
+    <nav id="times" class="submenu times">
+      <p class="submenu__title">Times</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dolores.</p>
+    </nav>
+    <nav id="location" class="submenu location">
+      <p class="submenu__title">Location</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dolores.</p>
+    </nav>
+    <nav id="contact" class="submenu contact">
+      <p class="submenu__title">Contact</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dolores.</p>
+    </nav>
+    <article class="intro">
+      <h2><span>You matter</span> to God. And to us.</h2>
+      <p>Welcome to a church where everyone matters, everyone belongs, and everyone has something important to contribute. At Willow Creek, you'll experience practical, down-to-earth teaching, powerful music, and real-life stories you can relate to. You'll sense our commitment to extending Christ's compassion to our broken world, both locally and globally. And no matter where you are in your spiritual journey, you'll find plenty of opportunities to grow, get connected, and give back to your community.</p>
+      <p>Choose from <a href="#" class="locations__popup">eight locations in the Chicago area</a> to find a Willow near you! Meet people eager to encounter the love of Christ in deeper ways and take steps to grow—in their relationships with God and with one another.</p>
+    </article>
+    <aside class="locations">
+      <h3>We have 8 locations. Click one to learn more</h3>
+      <ul><a href="">
+          <li>South Barrington</li></a><a href="">
+          <li>Casa de Luz</li></a><a href="">
+          <li>Chicago</li></a><a href="">
+          <li>Crystal Lake</li></a><a href="">
+          <li>Dupage</li></a><a href="">
+          <li>Huntley</li></a><a href="">
+          <li>North Shore</li></a><a href="">
+          <li>South Lake</li></a><a href="">
+          <li>Care Center</li></a></ul>
+    </aside>
+    <article class="feature">
+      <h2>Life at Willow</h2>
+      <p>People matter to God—and to us. Whether it's your first time visiting a church or you've been attending your whole life, you can take steps to grow at Willow.</p>
+      <ul>
+        <li>Attend a service</li>
+        <li>Join a small group</li>
+        <li>Volunteer</li>
+        <li>Find a class</li>
+        <li>Get practical help</li>
+        <li>Develop your gifts</li>
+        <li>Engage your kids</li>
+        <li>Ask hard questions</li>
+      </ul>
+    </article>
+    <section class="connect">
+      <h3>Stay connected</h3>
+      <ul class="social-list">
+        <li><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
+        <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+        <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+      </ul>
+    </section>
+    <section class="newsletter">
+      <h3>Sign Up for newsletter</h3>
+      <input type="text" placeholder="Email Address"/>
+      <input type="submit" value="submit"/>
+    </section>
+    <!-- Load jQuery and app-specific JS file-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- Loads Font Awesome-->
+    <script src="https://use.fontawesome.com/d49bb92f13.js"></script>
+  </body>
+</html>
